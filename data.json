@@ -1,0 +1,116 @@
+{
+  "assets": {
+    "crypto": [
+      {
+        "name": "Bitcoin",
+        "symbol": "bitcoin",
+        "quantity": 0.08,
+        "buy_price_usd": 65000,
+        "id": "demo-btc"
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ethereum",
+        "quantity": 1.5,
+        "buy_price_usd": 2800,
+        "id": "demo-eth"
+      }
+    ],
+    "indian_stocks": [
+      {
+        "name": "Reliance Industries",
+        "symbol": "RELIANCE",
+        "exchange": "NSE",
+        "quantity": 20,
+        "buy_price_inr": 1250,
+        "id": "demo-reliance"
+      },
+      {
+        "name": "Tata Consultancy Services",
+        "symbol": "TCS",
+        "exchange": "NSE",
+        "quantity": 10,
+        "buy_price_inr": 2200,
+        "id": "demo-tcs"
+      },
+      {
+        "name": "IT Bees",
+        "symbol": "ITBEES",
+        "exchange": "NSE",
+        "quantity": 100,
+        "buy_price_inr": 32,
+        "id": "demo-itbees"
+      },
+      {
+        "name": "Tata Gold ETF",
+        "symbol": "TATAGOLD",
+        "exchange": "NSE",
+        "quantity": 200,
+        "buy_price_inr": 16,
+        "id": "demo-tatagold"
+      }
+    ],
+    "us_stocks": [
+      {
+        "name": "NVIDIA Corporation",
+        "symbol": "NVDA",
+        "quantity": 2,
+        "buy_price_usd": 170,
+        "id": "demo-nvda"
+      },
+      {
+        "name": "Apple",
+        "symbol": "AAPL",
+        "quantity": 3,
+        "buy_price_usd": 190,
+        "id": "demo-aapl"
+      }
+    ],
+    "mutual_funds": [
+      {
+        "name": "Demo Equity Fund",
+        "scheme_code": "120716",
+        "quantity": 50,
+        "buy_price_inr": 100,
+        "id": "demo-mf"
+      }
+    ],
+    "bank_accounts": [
+      {
+        "name": "Demo Savings Account",
+        "balance_inr": 150000,
+        "id": "demo-bank"
+      }
+    ],
+    "gold": [
+      {
+        "name": "Physical Gold",
+        "quantity_grams": 25,
+        "buy_price_inr": 6000,
+        "id": "demo-gold"
+      }
+    ],
+    "property": [
+      {
+        "name": "Demo Apartment",
+        "value_inr": 4500000,
+        "id": "demo-property"
+      }
+    ],
+    "other": []
+  },
+  "liabilities": {
+    "loans": [
+      {
+        "name": "Demo Personal Loan",
+        "original_amount": 500000,
+        "outstanding": 450000,
+        "interest_rate": 22,
+        "emi": 20000,
+        "id": "demo-loan"
+      }
+    ],
+    "other": []
+  },
+  "history": []
+}
